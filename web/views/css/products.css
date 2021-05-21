@@ -1,0 +1,227 @@
+body{
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    overflow-x: hidden;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+}
+/*Slide Menu*/
+.head{
+    text-align: center;
+    margin-top: 35px;
+}
+.head a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bolder;
+}
+.head a:hover {
+    text-decoration-line: underline;
+}
+.sidenav {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    z-index: 3;
+}
+.img{
+    width: 350px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: calc(2% - 105px);
+}
+.head a:hover {
+    color: black;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.icon{
+    margin-left: -100px;
+    float: right;
+    padding: 10px;
+    margin-top: -30px;
+}
+/*===================================================================================*/
+/*Main*/
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    background-color: black;
+    opacity: 80%;
+    padding: 5px;
+}
+.pic{
+    margin-top: 35px;
+}
+
+
+/*Lọc*/
+* {
+    box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+p {
+    font-size: 25px;
+    word-break: break-all;
+    text-align: center;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+}
+.row {
+    margin: 10px -16px;
+}
+
+/* Thêm phần đệm giữa mỗi cột */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* tạo 3 cột bằng nhau nối cạnh nhau*/
+.column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Ẩn tất cả các ptử theo mặc định */
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+}
+.content img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    border-radius: 15px;
+}
+.content :hover{
+    text-decoration-line: underline;
+}
+
+/* Hiểu thị các phần tử đã lọc */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.btncon {
+    border: none;
+    outline: none;
+    padding: 0px 20px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: Arial;
+    max-width: 100%;
+}
+
+.btncon:hover {
+    background-color: #ddd;
+    text-decoration-line: underline;
+}
+
+.btncon.active {
+    background-color: #666;
+    color: white;
+}
+/*Fillter*/
+
+.dropbtn {
+    background-color: #666;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 10px 30px;
+    text-align: left;
+
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+.show {display: block;}
+
+.end{
+    margin-top: 50px;
+    background: white;
+}
+.end a{
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.info{
+    margin-left: 20px;
+}
+.info a{
+    padding: 10px;
+    margin-left: 30px;
+    vertical-align: baseline;
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+}
+.mxh{
+    text-align: center;
+    margin-left: -30px;
+}

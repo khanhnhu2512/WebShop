@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <meta charset="UTF-8">
+    <title>LOGIN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="icon_font/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+<img src="img/back.png" height="750" width="1536">
+    <div id="loginbox" >
+        <img src="img/logo.png" class="avatar">
+        <br>
+        <h1>LEO Sale Website</h1>
+        <h2 id="h2">Login Here</h2>
+        <form action="Home.html">
+            <p><i class="fa fa-user" aria-hidden="true"></i> Username</p>
+            <input type="text" name="" placeholder="Enter Username">
+            <p><i class="fa fa-unlock-alt" aria-hidden="true"></i> Password</p>
+            <input type="password" name="" placeholder="Enter Password">
+            <input type="submit" onclick="myFunction()" name="" value="Login">
+            <a href="#">Lost Your Password?</a>
+            <a href="RegisterForm.html">Don't Have An Account?</a>
+        </form>
+    </div>
+<script>
+    function myFunction() {
+        var x = document.createElement("SCRIPT");
+        var t = document.createTextNode("alert('Đăng Nhập Thành Công')");
+        x.appendChild(t);
+        document.body.appendChild(x);
+    }
+</script>
+</body>
+</html>

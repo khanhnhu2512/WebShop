@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="test.css">
+
+</head>
+<body>
+
+<div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+    <div id="myDropdown" class="dropdown-content">
+        <a href="#"><button class="btn" onclick="filterSelection('t-shirt')"> Hello</button></a>
+        <a href="#"><button class="btn" onclick="filterSelection('shrt')"> Shirt</button></a>
+        <a href="#"><button class="btn" onclick="filterSelection('backpack')"> BackPack</button></a>
+        <a href="#"><button class="btn" onclick="filterSelection('shorts')"> Shorts</button></a>
+    </div>
+</div>
+<script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+<div class="dropdown">
+    <div id="myBtnContainer1">
+        <button class="btn active" onclick="filterSelection('all')"> Show All</button>
+        <div class="dropdown-content">
+            <a href="#"><button class="btn" onclick="filterSelection('t-shirt')"> Hello</button></a>
+            <a href="#"><button class="btn" onclick="filterSelection('shrt')"> Shirt</button></a>
+            <a href="#"><button class="btn" onclick="filterSelection('backpack')"> BackPack</button></a>
+            <a href="#"><button class="btn" onclick="filterSelection('shorts')"> Shorts</button></a>
+        </div>
+    </div>
+</div>
+    <br>
+    <hr style="border: 2px solid black">
+    <div class="row">
+        <div class="column t-shirt">
+            <div class="content">
+                <a href="CTSP-TShirt1.html">
+                    <img src="img/y1.png" alt="Y T-Shirt White" style="width:100%">
+                    <h4>Y Basic T-Shirt White </h4>
+                    <p>390.000VNĐ</p>
+                </a>
+            </div>
+        </div>
+        <div class="column t-shirt">
+            <div class="content">
+                <a href="CTSP-TShirt2.html">
+                    <img src="img/y2.png" alt="Y T-Shirt Sky" style="width:100%">
+                    <h4>Y Basic T-Shirt Skyblue</h4>
+                    <p>390.000VNĐ</p>
+                </a>
+            </div>
+        </div>
+        <div class="column t-shirt">
+            <div class="content">
+                <a href="CTSP-TShirt3.html">
+                    <img src="img/y3.png" alt="Y T-Shirt Mint" style="width:100%">
+                    <h4>Y Basic T-Shirt Mint </h4>
+                    <p>390.000VNĐ</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="column backpack">
+            <div class="content">
+                <a href="Backpack1.html">
+                    <img src="img/backpack1.png" alt="16Typh Backpack Tan" style="width:100%">
+                    <h4>16Typh Backpack Tan</h4>
+                    <p>800.000VNĐ</p>
+                </a>
+            </div>
+        </div>
+        <div class="column backpack">
+            <div class="content">
+                <a href="Backpack2.html">
+                    <img src="img/backpack2.png" alt="Car" style="width:100%">
+                    <h4>16Typh Backpack Beige</h4>
+                    <p>800.000VNĐ</p>
+                </a>
+            </div>
+        </div>
+        <div class="column backpack">
+            <div class="content">
+                <a href="Backpack3.html">
+                    <img src="img/backpack3.png" alt="Car" style="width:100%">
+                    <h4>Logo Pattern Backpack</h4>
+                    <p>800.000VNĐ</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="column shrt">
+            <div class="content">
+                <a href="Shirt1.html">
+                    <img src="img/Shirt1.png" alt="Car" style="width:100%">
+                    <h4>Monarch Print Shirt - White</h4>
+                    <p>490.000VNĐ</p>
+                </a>
+            </div>
+        </div>
+        <div class="column shrt">
+            <div class="content">
+                <a href="Shirt2.html">
+                    <img src="img/shirt2.png" alt="Car" style="width:100%">
+                    <h4>Patchwork Shirt - Moss Grey</h4>
+                    <p>490.000VNĐ</p>
+                </a>
+            </div>
+        </div>
+        <div class="column shrt">
+            <div class="content">
+                <a href="Shirt3.html">
+                    <img src="img/shirt3.png" alt="Car" style="width:100%">
+                    <h4>Patchwork Shirt - Mars Red</h4>
+                    <p>490.000VNĐ</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="column backpack">
+            <div class="content">
+                <a href="Backpack4.html">
+                    <img src="img/Backpack4.png" alt="Car" style="width:100%">
+                    <h4>DC Logo Backpack</h4>
+                    <p>800.000VNĐ</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="column t-shirt">
+            <div class="content">
+                <a href="CTSP-TShirt4.html">
+                    <img src="img/1m.png" alt="Nature" style="width:100%">
+                    <h4>1M T-Shirt </h4>
+                    <p>450.000VNĐ</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="column shrt">
+            <div class="content">
+                <a href="Shirt4.html">
+                    <img src="img/shirt5.png" alt="Car" style="width:100%">
+                    <h4>Skeleton Bowling Shirt</h4>
+                    <p>490.000VNĐ</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="column shorts">
+            <div class="content">
+                <a href="Short1.html">
+                    <img src="img/Short1.png" alt="Car" style="width:100%">
+                    <h4>Fukyba Shorts</h4>
+                    <p>390.000VNĐ</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="column shorts">
+            <div class="content">
+                <a href="Short2.html">
+                    <img src="img/Short2.png" alt="Car" style="width:100%">
+                    <h4>Multicolor Shorts</h4>
+                    <p>350.000VNĐ</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="column shorts">
+            <div class="content">
+                <a href="Short3.html">
+                    <img src="img/Short3.png" alt="Car" style="width:100%">
+                    <h4>RYG Railey Shorts</h4>
+                    <p>350.000VNĐ</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </div>
+</div>
+<script>
+    filterSelection("all")
+    function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("column");
+        if (c == "all") c = "";
+        for (i = 0; i < x.length; i++) {
+            RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+        }
+    }
+
+    function AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+        }
+    }
+
+    function RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);
+            }
+        }
+        element.className = arr1.join(" ");
+    }
+
+
+
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script>
+
+
+</body>
+</html>

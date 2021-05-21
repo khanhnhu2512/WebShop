@@ -1,0 +1,196 @@
+body{
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    overflow-x: hidden;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+}
+.head{
+    text-align: center;
+    margin-top: 35px;
+}
+.head a{
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    font-weight: bolder;
+}
+.sidenav {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    z-index: 3;
+}
+.img{
+    width: 350px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: calc(2% - 105px);
+}
+.head a:hover {
+    color: black;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.icon{
+    margin-left: -100px;
+    float: right;
+    padding: 10px;
+    margin-top: -30px;
+}
+
+
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+    position:relative;
+    margin-top: 100px;
+    margin-left: 150px;
+    background-size: cover;
+}
+
+.img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    width: 100px;
+    height: 100px;
+}
+.main{
+    text-align: center;
+    margin-left: -100px;
+    margin-top: -830px;
+    z-index: 3;
+}
+.main h3{
+    margin-top: 130px;
+    margin-left: 900px;
+    font-size: 25px;
+}
+.main p{
+    margin-top: 30px;
+    margin-left: 900px;
+}
+.head a:hover {
+    text-decoration-line: underline;
+}
+
+/*============BUTTON================*/
+.btn{
+    margin-top: -25px;
+}
+.btnM{
+    margin-top: 30px;
+    margin-left: 900px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    opacity: 80%;
+    font-size: 13px;
+    position: relative;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.btnM:hover {background: #0b7dda;}
+
+.btnL{
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    opacity: 80%;
+    font-size: 13px;
+    position: relative;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.btnL:hover {background: #0b7dda}
+
+.btnXL{
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    opacity: 80%;
+    font-size: 13px;
+    position: relative;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.btnXL:hover{background: #0b7dda}
+
+.btnTG{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 300px;
+    max-width: 500px;
+    background-color: black;
+    opacity: 80%;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    position: relative;
+    color: #FFFFFF;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.btnTG:hover{background: #0b7dda;}
+
+.btnMN{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 300px;
+    max-width: 500px;
+    background-color: black;
+    opacity: 80%;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    position: relative;
+    color: #FFFFFF;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.btnMN:hover{background: #0b7dda;}
+
+.btnTGMN{
+    margin-top: 20px;
+    margin-left: 900px;
+}
+.ctsp{
+    text-align: right;
+    margin-right: 500px;
+}
+.ctsp p1{
+    position: absolute;
+    padding: 5px;
+}
+

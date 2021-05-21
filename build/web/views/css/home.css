@@ -1,0 +1,300 @@
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    overflow-x: hidden;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+}
+.head{
+    text-align: center;
+    margin-top: 35px;
+}
+.head a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bolder;
+    position: relative;
+}
+.head a:hover {
+    text-decoration-line: underline;
+}
+
+.sidenav {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    z-index: 3;
+}
+.img{
+    width: 350px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: calc(2% - 105px);
+}
+.imgg {
+    margin-left: 130px;
+}
+.head a:hover {
+    color: black;
+}
+.hr{
+    height: 1px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.icon{
+    margin-left: -100px;
+    float: right;
+    padding: 10px;
+    margin-top: -30px;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: center;}
+.main{
+    margin-top: 93px;
+    height: 1500px;
+}
+/* Chạy hình ảnh */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+}
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+    right: -520px;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    opacity: 0%;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0.1s;
+    animation-name: fade;
+    animation-duration: 0.2s;
+    margin-left: -35px;
+}
+.mySlides .fade .img{
+    left: 1000px;
+    padding: 20px;
+
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+.main p{
+    text-align: center;
+    font-size: 30px;
+    font-family: normal;
+}
+/* Thẻ Sản Phẩm */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    max-height: 30px;
+    margin: auto;
+    text-align: center;
+    font-family: "Times New Roman";
+    margin-left: 300px;
+}
+.card:hover{
+    text-decoration-line: underline;
+    box-shadow: black;
+    background: white;
+    transform: scale(1.05);
+    transition: 0.3s;
+    border-radius: 15px;
+}
+.card2:hover{
+    text-decoration-line: underline;
+    box-shadow: black;
+    transform: scale(1.05);
+    transition: 0.3s;
+    border-radius: 15px;
+}
+.card3:hover{
+    text-decoration-line: underline;
+    box-shadow: black;
+    transform: scale(1.05);
+    transition: 0.3s;
+    border-radius: 15px;
+}
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    max-height: 100px;
+    margin: auto;
+    text-align: center;
+    font-family: "Times New Roman";
+    margin-left: 638px;
+    margin-top: -30px;
+}
+
+.card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    max-height: 100px;
+    margin: auto;
+    text-align: center;
+    font-family: "Times New Roman";
+    margin-left: 975px;
+    margin-top: -100px;
+}
+.price {
+    color: grey;
+    font-size: 20px;
+}
+.h1{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.button{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 380px;
+    margin-left: 690px;
+    border: none;
+    position: relative;
+    background-color: black;
+    color: #FFFFFF;
+    width: 150px;
+    padding: 20px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:hover {background: #0b7dda;}
+
+.imgg2{
+    margin-left: 380px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    background-color: black;
+    opacity: 80%;
+    padding: 5px;
+}
+.pic{
+    margin-top: 800px;
+    width: auto;
+}
+.part2{
+    margin-top: 300px;
+}
+
+
+.bsl{
+    text-decoration: none;
+    color: black;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.card3 a{
+    text-decoration: none;
+    color: black;
+}
+.card2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.end{
+    margin-top: 2000px;
+    background: white;
+}
+.end a{
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.info{
+    margin-left: 20px;
+}
+.info a{
+    padding: 10px;
+    margin-left: 30px;
+    vertical-align: baseline;
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+}
+.mxh{
+    text-align: center;
+    margin-left: -30px;
+}

@@ -1,0 +1,141 @@
+body{
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    overflow-x: hidden;
+    margin: 8px;
+    background-color: #EEEEEE;
+}
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 3px 5px 15px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: black;
+    text-decoration-line: underline;
+    background: #55ACEE;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.img{
+    width: 350px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: calc(2% - 65px);
+}
+.catory{
+    margin-top: 70px;
+    text-align: left;
+}
+.infoadmin{
+    margin-top: 30px;
+    margin-left: 300px;
+    font-size: 25px;
+}
+.Thongtintaikhoan{
+    margin-top: 30px;
+    margin-left: 300px;
+    font-size: 17px;
+    background: white;
+    width: 300px;
+    vertical-align: middle;
+}
+.infomation{
+    margin-top: -75px;
+    margin-left: 700px;
+    background: white;
+    height: 350px;
+}
+
+input[type=text] {
+    width: 300px;
+    margin-bottom: 0px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.half-past{
+    margin-top: -330px;
+    margin-left: 400px;
+}
+.first{
+    padding: 10px;
+}
+
+.btn{
+    float: right;
+    margin-top: 150px;
+    padding: 10px;
+    width: 100px;
+    background-color: #55ACEE;
+}
+.btn:hover{
+    background: white;
+}
+.move{
+    float: right;
+    margin-top: 800px;
+}
+.h4{
+    margin-left: 300px;
+    font-size: 30px;
+}
+.search{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.search input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.search input[type=text]:focus {
+    width: 100%;
+}
+
+.table{
+    width:80%;
+    margin-top: 50px;
+    margin-left: 260px; 
+}
+.table1{
+    width:80%;
+    margin-top: 50px;
+    margin-left: 210px;
+}
